@@ -111,9 +111,9 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     # This example player always colludes
     if player == 0:
         if getting_team_name:
-            return 'loyal'
+            return 'backstabber'
         else:
-            return 'a'
+            return 'c'
 
     
         
@@ -127,9 +127,9 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     #This example player always betrays.      
     elif player == 1:
         if getting_team_name:
-            return 'backstabber'
+            return 'loyal'
         else:
-            return 'c'
+            return 'a'
 
 
 
