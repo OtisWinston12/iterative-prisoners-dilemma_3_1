@@ -113,7 +113,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
         if getting_team_name:
             return 'loyal'
         else:
-            return 'c'
+            return 'a'
 
     
         
@@ -129,7 +129,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
         if getting_team_name:
             return 'backstabber'
         else:
-            return 'b'
+            return 'c'
 
 
 
